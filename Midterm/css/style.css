@@ -1,0 +1,17 @@
+.bold {
+    font-weight: bold;
+}
+
+#movies img,
+#myMovies img {
+    width: 100%;
+}
+
+@media(min-width:900px) {
+    #movies .col-md-6 .well {
+        height: 400px;
+    }
+    #movies .col-md-3 img {
+        height: 200px;
+    }
+}
